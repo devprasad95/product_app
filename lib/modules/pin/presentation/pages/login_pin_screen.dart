@@ -63,8 +63,6 @@ class _LoginPinScreenState extends State<LoginPinScreen> {
                       message: state.message, context: context);
                 }
                 if (state is LoginPinState) {
-                  SnackBarMessage()
-                      .showSuccessSnackBar(message: 'Sucess', context: context);
                   Navigator.of(context).pushReplacement(MaterialPageRoute(
                     builder: (context) => const ProductPage(),
                   ));
