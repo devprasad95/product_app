@@ -1,16 +1,19 @@
-# product_app
+# Product Management App
 
-A new Flutter project.
+Development of a Flutter Application with Firebase Integration and Product Management
 
-## Getting Started
+## Feautures
 
-This project is a starting point for a Flutter application.
+- Fireabse Authentication
+- Product Add in Firebase database
+- Search Product
+- QR Code Generation
+- Clean Archietecture
+- Bloc state management
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Steps to use App
+- Register an account with your email and a password
+- After creating sign in with your email and password
+- Create a new pin
+- Login with Pin
+- You can see list of products, filter your product by searching and add products.
